@@ -8,7 +8,8 @@ import { type } from "os";
 import { useActiveSectionContext } from "@/context/active-section-context";
 
 const Header = () => {
-	const { activeSection, setActiveSection } = useActiveSectionContext();
+	const { activeSection, setActiveSection, setTimeOfLastClick } =
+		useActiveSectionContext();
 
 	return (
 		<header className="z-[999] relative">
@@ -35,7 +36,10 @@ const Header = () => {
 									}
 								)}
 								href={link.hash}
-								onClick={() => setActiveSection(link.name)}
+								onClick={() => {
+									setActiveSection(link.name);
+									setTimeOfLastClick(Date.now());
+								}}
 							>
 								{link.name}
 
