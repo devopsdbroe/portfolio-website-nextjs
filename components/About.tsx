@@ -32,7 +32,7 @@ const About = () => {
 				Outside of programming, I enjoy playing video games, skiing during the
 				winter and hiking during the summer. I also enjoy learning new things.
 				It's what drew me to the tech field in the first place. I'm almost
-				always garunteed to learn something new every day.
+				always guaranteed to learn something new every day.
 			</p>
 		</motion.section>
 	);
