@@ -43,7 +43,7 @@ export const experiencesData = [
 		date: "2017",
 	},
 	{
-		title: "System Operator",
+		title: "System Operator - Vermont Mutual",
 		location: "East Montpelier, VT",
 		description:
 			"I worked the night shift as a system operator for a year and a half.",
@@ -51,7 +51,7 @@ export const experiencesData = [
 		date: "2018 - 2019",
 	},
 	{
-		title: "Computer Operator / DevOps Administrator",
+		title: "Computer Operator / DevOps Administrator - Vermont Mutual",
 		location: "Montpelier, VT",
 		description:
 			"I'm now working as a DevOps Administrator with AWS and GitLab pipelines. I also have some experience with Python.",
