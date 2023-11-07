@@ -65,7 +65,7 @@ const Intro = () => {
 				I've developed (no pun intended) a passion for{" "}
 				<span className="italic">building websites</span> and have also been
 				learing how to build apps on the side. My main focus is{" "}
-				<span className="underline">React (Next.js).</span>
+				<span className="underline">React (Next.js)</span>.
 			</motion.h1>
 			<motion.div
 				className="flex flex-col items-center justify-center gap-3 px-4 text-lg font-medium sm:flex-row"
@@ -80,7 +80,7 @@ const Intro = () => {
 					className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
 					onClick={() => {
 						setActiveSection("Contact");
-						setTimeOfLastClick();
+						setTimeOfLastClick(Date.now());
 					}}
 				>
 					Contact me here{" "}
