@@ -20,18 +20,18 @@ const About = () => {
 			<p className="mb-3">
 				After graduating with a bachelors degree in{" "}
 				<span className="font-medium">Computer Science</span>, I started out my
-				tech career in <span className="font-medium">operations</span>and have
+				tech career in <span className="font-medium"> Operations </span>and have
 				been there ever since. I have always had an interest in web development,
-				but have always struggled to get into it. After several attempts over
-				the years, I have finally put in the time to not only learn, but also
-				build projects so that I can apply my knowledge. My core stack is React,
-				Next.js, and Node.js. I am also familiar with TypeScript and MongoDB.
+				and after several years of learning, I have finally put in the time to
+				apply that knowledge by building websites. My core stack is HTML, CSS,
+				and JavaScript (React and Next.js). I am also familiar with TypeScript,
+				Tailwind and MongoDB.
 			</p>
 			<p>
 				Outside of programming, I enjoy playing video games, skiing during the
 				winter and hiking during the summer. I also enjoy learning new things.
-				It is what drew me to the tech field in the first place. I am almost
-				always guaranteed to learn something new every day.
+				It is what drew me to the tech field in the first place, because I am
+				almost always guaranteed to learn something new every day.
 			</p>
 		</motion.section>
 	);
