@@ -21,12 +21,11 @@ const About = () => {
 				After graduating with a bachelors degree in{" "}
 				<span className="font-medium">Computer Science</span>, I started out my
 				tech career in <span className="font-medium">operations</span>and have
-				been there ever since. I've always had an interest in web development,
-				but have always struggled to get into it because of "tutorial hell".
-				After several attempts over the years, I've finally put in the time to
-				not only learn, but also BUILD projects so that I can apply my
-				knowledge. My core stack is React, Next.js, and Node.js. I'm familiar
-				with TypeScript and MongoDB.
+				been there ever since. I have always had an interest in web development,
+				but have always struggled to get into it. After several attempts over
+				the years, I have finally put in the time to not only learn, but also
+				build projects so that I can apply my knowledge. My core stack is React,
+				Next.js, and Node.js. I am also familiar with TypeScript and MongoDB.
 			</p>
 			<p>
 				Outside of programming, I enjoy playing video games, skiing during the
