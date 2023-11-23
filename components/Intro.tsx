@@ -59,12 +59,11 @@ const Intro = () => {
 				initial={{ opacity: 0, y: 100 }}
 				animate={{ opacity: 1, y: 0 }}
 			>
-				<span className="font-bold">Hello, I&apos;m Daniel!</span> I am a{" "}
-				<span className="font-bold">aspiring front-end developer</span> who is{" "}
-				<span className="font-bold">looking to break into the industy.</span> I
-				have developed (no pun intended) a passion for{" "}
-				<span className="italic">building websites</span> and have also been
-				learing how to build apps on the side. My main focus is{" "}
+				<span className="font-bold">Hello, I&apos;m Daniel!</span> I&apos;m a{" "}
+				<span className="font-bold">aspiring front-end developer</span> who is
+				looking to <span className="font-bold">break into the industy.</span>{" "}
+				I&apos;ve developed a passion for{" "}
+				<span className="italic">building websites.</span> My main focus is{" "}
 				<span className="underline">React (Next.js)</span>.
 			</motion.h1>
 			<motion.div
@@ -77,7 +76,7 @@ const Intro = () => {
 			>
 				<Link
 					href="#contact"
-					className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
+					className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none hover:scale-110 active:scale-105 hover:bg-gray-950 transition"
 					onClick={() => {
 						setActiveSection("Contact");
 						setTimeOfLastClick(Date.now());
@@ -87,7 +86,7 @@ const Intro = () => {
 					<BsArrowRight className="opacity-70 group-hover:translate-x-1" />
 				</Link>
 				<a
-					className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
+					className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
 					href="/CV.pdf"
 					download
 				>
@@ -95,14 +94,14 @@ const Intro = () => {
 					<HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
 				</a>
 				<a
-					className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+					className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
 					href="https://linkedin.com"
 					target="_blank"
 				>
 					<BsLinkedin />
 				</a>
 				<a
-					className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+					className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
 					href="https://github.com/devopsdbroe?tab=repositories"
 					target="_blank"
 				>
