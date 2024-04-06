@@ -18,19 +18,17 @@ const About = () => {
 		>
 			<SectionHeading>About Me</SectionHeading>
 			<p className="mb-3">
-				After graduating with a bachelors degree in{" "}
-				<span className="font-medium">Computer Science</span>, I started out my
-				tech career in <span className="font-medium"> Operations </span>and have
-				been there ever since. I have always had an interest in web development,
-				and after several years of learning, I have finally put in the time to
-				apply that knowledge by building websites. My core stack is HTML, CSS,
-				and JavaScript (React and Next.js). I am also familiar with TypeScript,
-				Tailwind and MongoDB.
+				After graduating with a bachelor&apos;s degree in Computer Science, I
+				started my tech career in Operations and have been there ever since.
+				I&apos;ve always been interested in web development, and after several
+				years of learning, I have taken the time to apply that knowledge by
+				building websites. My core stack is HTML, CSS, and JavaScript (React and
+				Next.js). I&apos;m also familiar with TypeScript, Tailwind, and MongoDB.
 			</p>
 			<p>
 				Outside of programming, I enjoy playing video games, skiing during the
-				winter and hiking during the summer. I also enjoy learning new things.
-				It is what drew me to the tech field in the first place, because I am
+				winter, and hiking in the summer. I also enjoy learning new things,
+				which drew me to the tech field in the first place. I love that I&apos;m
 				almost always guaranteed to learn something new every day.
 			</p>
 		</motion.section>
