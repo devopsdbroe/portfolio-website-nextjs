@@ -72,10 +72,17 @@ export const projectsData = [
 		imageUrl: broecodeImg,
 	},
 	{
-		title: "DevFlow",
+		title: "Random Quote Generator",
 		description:
-			"A Stack Overflow clone website that I build using Next.js 14 and MongoDB.",
-		tags: ["React", "TypeScript", "Next.js", "Tailwind", "MongoDB"],
+			"A full-stack application that generates random quotes with the click of a button. This was a good oppertunity to work in my knowledge with AWS",
+		tags: [
+			"React",
+			"TypeScript",
+			"Next.js",
+			"Styled Components",
+			"GraphQL",
+			"AWS Amplify",
+		],
 		imageUrl: devflowImg,
 	},
 	{
