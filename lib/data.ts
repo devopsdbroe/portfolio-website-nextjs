@@ -3,11 +3,8 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import broecodeImg from "@/public/broecode.png";
-import devflowImg from "@/public/devflow.png";
+import quotegeneratorImg from "@/public/quotegenerator.png";
 import mernestateImg from "@/public/mernestate.png";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
 	{
@@ -74,16 +71,9 @@ export const projectsData = [
 	{
 		title: "Random Quote Generator",
 		description:
-			"A full-stack application that generates random quotes with the click of a button. This was a good oppertunity to work in my knowledge with AWS",
-		tags: [
-			"React",
-			"TypeScript",
-			"Next.js",
-			"Styled Components",
-			"GraphQL",
-			"AWS Amplify",
-		],
-		imageUrl: devflowImg,
+			"A random quote generator that I built using my exisitng knowledge of AWS",
+		tags: ["React", "TypeScript", "Next.js", "GraphQL", "AWS Amplify"],
+		imageUrl: quotegeneratorImg,
 	},
 	{
 		title: "MERN Estate",
