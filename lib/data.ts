@@ -71,7 +71,7 @@ export const projectsData = [
 	{
 		title: "Random Quote Generator",
 		description:
-			"A random quote generator that I built using my exisitng knowledge of AWS",
+			"A random quote generator that I built as an opportunity to incorporate my existing knowledge of AWS.",
 		tags: ["React", "TypeScript", "Next.js", "GraphQL", "AWS Amplify"],
 		imageUrl: quotegeneratorImg,
 	},
