@@ -67,6 +67,7 @@ export const projectsData = [
 			"My personal blog website, built using the MERN development stack. Here I talk about my experiences learning about full-stack web development.",
 		tags: ["React", "MongoDB", "Tailwind", "Express"],
 		imageUrl: broecodeImg,
+		url: "https://broe-code.onrender.com",
 	},
 	{
 		title: "Random Quote Generator",
@@ -74,6 +75,7 @@ export const projectsData = [
 			"A random quote generator that I built as an opportunity to incorporate my existing knowledge of AWS.",
 		tags: ["React", "TypeScript", "Next.js", "GraphQL", "AWS Amplify"],
 		imageUrl: quotegeneratorImg,
+		url: "https://prod.d2x5at9p7rhcg4.amplifyapp.com/",
 	},
 	{
 		title: "MERN Estate",
@@ -81,6 +83,7 @@ export const projectsData = [
 			"A real estate website that I built using the MERN development stack.",
 		tags: ["React", "MongoDB", "Tailwind", "Express", "OAuth"],
 		imageUrl: mernestateImg,
+		url: "https://mern-estate-b28f.onrender.com",
 	},
 ] as const;
 
