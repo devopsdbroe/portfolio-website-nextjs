@@ -1,10 +1,9 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import broecodeImg from "@/public/broecode.png";
 import quotegeneratorImg from "@/public/quotegenerator.png";
 import mernestateImg from "@/public/mernestate.png";
+import devflowImg from "@/public/devflow.png";
 
 export const links = [
 	{
@@ -62,12 +61,11 @@ export const experiencesData = [
 
 export const projectsData = [
 	{
-		title: "Broe Code",
-		description:
-			"My personal blog website, built using the MERN development stack. Here I talk about my experiences learning about full-stack web development.",
-		tags: ["React", "MongoDB", "Tailwind", "Express"],
-		imageUrl: broecodeImg,
-		url: "https://broe-code.onrender.com",
+		title: "DevFlow",
+		description: "A Stack Overflow clone that I built using Next.js.",
+		tags: ["React", "Next.js", "MongoDB", "Tailwind"],
+		imageUrl: devflowImg,
+		url: "https://devflow-gules.vercel.app",
 	},
 	{
 		title: "Random Quote Generator",
