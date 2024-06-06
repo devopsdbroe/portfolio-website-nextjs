@@ -60,9 +60,9 @@ const Intro = () => {
 				animate={{ opacity: 1, y: 0 }}
 			>
 				<span className="font-bold">Hi, I&apos;m Daniel!</span> I&apos;m an{" "}
-				<span className="font-bold">aspiring front-end developer</span> who is
-				looking to <span className="font-bold">break into the industy.</span>{" "}
-				I&apos;ve developed a passion for{" "}
+				<span className="font-bold">aspiring web developer</span> who is looking
+				to <span className="font-bold">break into the industy.</span> I&apos;ve
+				developed a passion for{" "}
 				<span className="italic">building websites.</span> My main focus is{" "}
 				<span className="underline">React and Next.js</span>.
 			</motion.h1>
@@ -87,7 +87,7 @@ const Intro = () => {
 				</Link>
 				<a
 					className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-					href="/Daniel_Broe_Resume.pdf"
+					href="/DanielBroe_Resume.pdf"
 					download
 				>
 					Download CV{" "}
