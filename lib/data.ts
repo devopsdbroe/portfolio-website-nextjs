@@ -65,7 +65,7 @@ export const projectsData = [
 		description: "A Stack Overflow clone that I built using Next.js.",
 		tags: ["React", "Next.js", "MongoDB", "Tailwind"],
 		imageUrl: devflowImg,
-		url: "https://devflow-gules.vercel.app",
+		url: "https://devflow-smoky.vercel.app/",
 	},
 	{
 		title: "Random Quote Generator",
