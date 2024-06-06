@@ -42,7 +42,7 @@ export const experiencesData = [
 		date: "2017",
 	},
 	{
-		title: "System Operator - Vermont Mutual",
+		title: "System Operator - Intralot",
 		location: "East Montpelier, VT",
 		description:
 			"I worked the night shift as a system operator for a year-and-a-half.",
