@@ -53,7 +53,7 @@ export const experiencesData = [
 		title: "Computer Operator - Vermont Mutual",
 		location: "Montpelier, VT",
 		description:
-			"As a computer operator at Vermont Mutual, I ensured system availability, managed AS/400 systems, performed technology upgrades, oversaw fax communications, and handled critical month-end processing tasks.",
+			"As a computer operator at Vermont Mutual, I ensured system availability, managed AS/400 systems, performed regular installations and upgrades, oversaw fax communications, and handled critical month-end processing tasks.",
 		icon: React.createElement(CgWorkAlt),
 		date: "2019 - 2021",
 	},
