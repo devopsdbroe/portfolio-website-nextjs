@@ -34,10 +34,10 @@ export const links = [
 
 export const experiencesData = [
 	{
-		title: "Graduated from Vermont Tech",
+		title: "Graduated from Vermont Technical College",
 		location: "Randolph, VT",
 		description:
-			"I graduated with a bachelor's degree in IT after 4 years of studying.",
+			"I graduated with a bachelor's degree in IT, gaining comprehensive knowledge in software development, networking, and systems administration.",
 		icon: React.createElement(LuGraduationCap),
 		date: "2017",
 	},
@@ -45,17 +45,25 @@ export const experiencesData = [
 		title: "System Operator - Intralot",
 		location: "East Montpelier, VT",
 		description:
-			"I worked the night shift as a system operator for a year-and-a-half.",
+			"As a night shift System Operator, I monitored telecommunications devices, verified data integrity, assisted with QA testing, generated reports, and supported field technicians and call center operators.",
 		icon: React.createElement(CgWorkAlt),
 		date: "2018 - 2019",
 	},
 	{
-		title: "Computer Operator / DevOps Administrator - Vermont Mutual",
+		title: "Computer Operator - Vermont Mutual",
 		location: "Montpelier, VT",
 		description:
-			"I'm currently working as a DevOps Administrator working with AWS and GitLab CI/CD pipelines. I also have some experience with Python.",
+			"As a computer operator at Vermont Mutual, I ensured system availability, managed AS/400 systems, performed technology upgrades, oversaw fax communications, and handled critical month-end processing tasks.",
 		icon: React.createElement(CgWorkAlt),
-		date: "2019 - present",
+		date: "2019 - 2021",
+	},
+	{
+		title: "DevOps Administrator - Vermont Mutual",
+		location: "Montpelier, VT",
+		description:
+			"Transitioning to DevOps Administrator at Vermont Mutual, I now collaborate within an agile team to maintain and improve cloud infrastructure, manage AWS resources, enhance Infrastructure-as-Code, optimize CI/CD pipelines, and contribute to monthly releases, while retaining my previous duties as a Computer Operator.",
+		icon: React.createElement(CgWorkAlt),
+		date: "2021 - present",
 	},
 ] as const;
 
